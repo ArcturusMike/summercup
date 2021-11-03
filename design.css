@@ -1,0 +1,164 @@
+@media (max-width:1000px){
+    
+    body {
+        font-family: sans-serif;
+    }
+
+    #logo_mobil {
+        max-width: 100%;
+        width: auto;
+        margin-bottom: 10px
+    }
+
+    table {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+        font-family: sans-serif;
+    }
+
+    #spielplan td {
+        padding: 3px;
+        border-collapse: collapse;
+        border: none;
+    }
+
+    .datum_uhrzeit_mobil {
+        font-weight: bold;
+    }
+
+    .datum_uhrzeit_mobil:nth-child(odd) {
+        background-color: #f2f2f2;
+    }
+
+    .teams_mobil:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .ergebnisse_mobil:nth-child(odd) {
+        background-color: #f2f2f2;
+    }
+
+    .datum_uhrzeit_mobil {
+        border-top: 1px solid black;
+    }
+
+    .ergebnisse_mobil {
+        border-bottom: 1px solid black;
+    }
+
+    #raster td {
+        padding: 3px;
+    }
+    
+    .aktualisieren {
+        margin-right: 10px;
+        font-size: 12pt;
+    }
+    
+    #stand {
+        font-size: 10pt;
+        float: left;
+    }
+    
+    #besuche {
+        font-size: 10pt;
+        float: right;
+    }
+}
+
+
+@media (min-width: 1001px) {
+
+    #ausgabe {
+        width: 100%;
+        text-align: center;
+        font-family: Rockwell, sans-serif;
+    }
+
+    #logo {
+        width: auto;
+        max-width: 700px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: left;
+    }
+
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        font: 14pt Rockwell, sans-serif;
+        border: 1px solid black;
+        text-align: center; 
+    }
+
+    #spielplan tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    th {
+        font-size: 17pt;
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+    input {
+        font-size: 14pt;
+    }
+
+    .datum {
+        width: 160px;
+    }
+
+    .team1 {
+        border-right-style: dashed;
+    }
+
+    .team2 {
+        border-left-style: dashed;
+    }
+
+    .team1, .team2 {
+        width: 240px;
+        height: 34px;
+    }
+
+    .ergebnis {
+        min-width: 200px;
+    }
+
+    .aktualisieren {
+        float: left;
+        margin-right: 10px;
+    }
+    
+    #raster th, td {
+        text-decoration: none;
+        font: 14pt Rockwell, sans-serif;
+        min-width: 120px;
+    }
+    
+    .nix {
+        background-color: grey;
+    }
+    
+    #zusatzinfos {
+        margin-top: 10px;
+    }
+    
+    #stand {
+        float: left;
+    }
+    
+    #besuche {
+        float: right;
+    }
+}
